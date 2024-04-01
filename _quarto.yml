@@ -1,0 +1,45 @@
+project:
+  type: website
+    
+
+website:
+  title: "Open Enki"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+  open-graph: true
+  favicon: open_enki_logo.jpeg
+  page-footer:
+    center: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+
+  sidebar:
+    logo: open_enki_logo.jpeg
+    pinned: true
+    align: center
+    tools: 
+      - icon: globe
+        href: https://openscapes.org
+        text: "Openscapes.org"
+      - icon: github
+        href: https://github.com/openscapes/quarto-website-tutorial
+        text: "Quarto website tutorial"
+      - icon: twitter
+        href: https://twitter.com/openscapes
+        text: "Openscapes Twitter"         
+    style: "docked"
+    search: true
+    collapse-level: 1
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
+
+
